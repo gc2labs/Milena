@@ -1,5 +1,6 @@
-<p> My name is Milena</p/
-<p> I am 11 years old</p>
-<p> I like to organize </p>
-<p> I dont like to clean</p> 
-<p> This Website is about arts and crafts and other things</p>
+<p> My name is Milena </p>
+<p> I am 11 years old </p>
+<p> I like crafts </p>
+<p> i love to organize </p>
+
+<div class="bgimg">
