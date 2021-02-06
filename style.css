@@ -16,3 +16,45 @@ body, html {height: 100%}
   .color {
     color: #9342f5
   }
+  .title {
+    color: black;
+    padding: 10px;
+  }
+  
+  .title h1 {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .main {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .border {
+    border: 5px solid red;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    border-radius: 12px;
+    font-family: "Raleway", sans-serif;
+    padding: 5px;
+  }
+  
+  .animal {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border: 10px dotted blue;
+  }
+  
+  .animal p {
+    font-family: "Raleway", sans-serif;
+  }  
