@@ -1,0 +1,209 @@
+            @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i);
+            @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+            @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400);
+     
+
+/*font-family: 'PT Sans', sans-serif;*/
+.fg-web-theme-01  .fg-body-bg > header *, 
+.fg-web-theme-01  .fg-body-bg > main  *, 
+.fg-web-theme-01  .fg-body-bg > footer  *,
+.fg-body-ckeditor.fg-web-theme-01 * {
+  /*----------------------------------------------------------------
+  Main text style related elements
+  -------------------------------------------------------------------*/
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;
+ 
+    text-transform: none;
+  /* main text style override on  other elements */
+  /*----------------------------------------------------------------
+  header section 
+  -------------------------------------------------------------------*/
+  /* heading style override on  other elements */
+  /*----------------------------------------------------------------
+  nav sectionstyle related elements
+  -------------------------------------------------------------------*/
+  /*----------------------------------------------------------------
+  Main text style related elements
+  -------------------------------------------------------------------*/
+  /*other overide section */
+}
+
+.fg-web-theme-01 .fg-body-bg em {
+  font-style: italic !important;
+}
+.fg-web-theme-01 .fg-body-bg em * {
+  font-style: italic !important;
+}
+.fg-web-theme-01 .fg-body-bg strong {
+  font-weight: bold !important;
+}
+.fg-web-theme-01 .fg-body-bg strong * {
+  font-weight: bold !important;
+}
+.fg-web-theme-01 .fg-body-bg .fg-calendar-event-widget .fg-event-block .fg-event-title {
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;    
+ 
+    text-transform: none;    
+}
+.fg-web-theme-01 .fg-body-bg .form-group *:not(.fa) {
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;    
+ 
+    text-transform: none;   
+}
+.fg-web-theme-01 .ug-gallery-wrapper .ug-textpanel-description {
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;    
+ 
+    text-transform: none;    
+}
+
+.fg-web-theme-01 .ug-gallery-wrapper {
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;    
+ 
+    text-transform: none;    
+}
+.fg-web-theme-01 .fg-body-bg header h1, 
+.fg-web-theme-01 .fg-body-bg header h2, 
+.fg-web-theme-01 .fg-body-bg header h3, 
+.fg-web-theme-01 .fg-body-bg header h4, 
+.fg-web-theme-01 .fg-body-bg header h5, 
+.fg-web-theme-01 .fg-body-bg header h6, 
+.fg-web-theme-01 .fg-body-bg header h1 > span, 
+.fg-web-theme-01 .fg-body-bg header h2 > span, 
+.fg-web-theme-01 .fg-body-bg header h3 > span, 
+.fg-web-theme-01 .fg-body-bg header h4 > span, 
+.fg-web-theme-01 .fg-body-bg header h5 > span, 
+.fg-web-theme-01 .fg-body-bg header h6 > span, 
+.fg-web-theme-01 .fg-body-bg header h1 > a, 
+.fg-web-theme-01 .fg-body-bg header h2 > a, 
+.fg-web-theme-01 .fg-body-bg header h3 > a, 
+.fg-web-theme-01 .fg-body-bg header h4 > a, 
+.fg-web-theme-01 .fg-body-bg header h5 > a, 
+.fg-web-theme-01 .fg-body-bg header h6 > a, 
+.fg-web-theme-01 .fg-body-bg main h1, 
+.fg-web-theme-01 .fg-body-bg main h2, 
+.fg-web-theme-01 .fg-body-bg main h3, 
+.fg-web-theme-01 .fg-body-bg main h4, 
+.fg-web-theme-01 .fg-body-bg main h5, 
+.fg-web-theme-01 .fg-body-bg main h6, 
+.fg-web-theme-01 .fg-body-bg main h1 >a, 
+.fg-web-theme-01 .fg-body-bg main h2 >a, 
+.fg-web-theme-01 .fg-body-bg main h3 >a, 
+.fg-web-theme-01 .fg-body-bg main h4 >a, 
+.fg-web-theme-01 .fg-body-bg main h5 >a, 
+.fg-web-theme-01 .fg-body-bg main h6 >a, 
+.fg-web-theme-01 .fg-body-bg main h1 >span, 
+.fg-web-theme-01 .fg-body-bg main h2 >span, 
+.fg-web-theme-01 .fg-body-bg main h3 >span, 
+.fg-web-theme-01 .fg-body-bg main h4 >span, 
+.fg-web-theme-01 .fg-body-bg main h5 >span, 
+.fg-web-theme-01 .fg-body-bg main h6 >span, 
+.fg-web-theme-01 .fg-body-bg footer h1, 
+.fg-web-theme-01 .fg-body-bg footer h2, 
+.fg-web-theme-01 .fg-body-bg footer h3, 
+.fg-web-theme-01 .fg-body-bg footer h4, 
+.fg-web-theme-01 .fg-body-bg footer h5, 
+.fg-web-theme-01 .fg-body-bg footer h6,
+.fg-web-theme-01 .fg-body-bg footer h1 > span, 
+.fg-web-theme-01 .fg-body-bg footer h2 > span, 
+.fg-web-theme-01 .fg-body-bg footer h3 > span, 
+.fg-web-theme-01 .fg-body-bg footer h4 > span, 
+.fg-web-theme-01 .fg-body-bg footer h5 > span, 
+.fg-web-theme-01 .fg-body-bg footer h6 > span,
+.fg-web-theme-01 .fg-body-bg footer h1 > a, 
+.fg-web-theme-01 .fg-body-bg footer h2 > a, 
+.fg-web-theme-01 .fg-body-bg footer h3 > a, 
+.fg-web-theme-01 .fg-body-bg footer h4 > a, 
+.fg-web-theme-01 .fg-body-bg footer h5 > a, 
+.fg-web-theme-01 .fg-body-bg footer h6 > a {
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-style: normal;    
+ 
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.fg-web-theme-01 .fg-body-bg .fg-web-main-nav li a { 
+    font-family: Roboto Condensed;
+    font-weight: normal;
+    font-style: normal;    
+ 
+    text-transform: uppercase;
+}
+.fg-web-theme-01 .fg-body-bg .fg-article-widget .fg-article-wrapper .fg-content {
+  font-weight: normal;
+}
+/*original size background images*/
+
+.fg-web-bg-org-size {
+    background-image: ;
+    background-position: ;
+    background-repeat: ;
+    background-attachment: ;
+}
+
+.fg-web-theme-01 .fa {
+  font-family: FontAwesome !important;
+  font-style: normal;
+}
+.fg-web-theme-01 .glyphicon:not(.fa) {
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal;
+}
+
+.icon-magnifier {
+  font-family: 'simple-line-icons' !important;
+}
+
+.fg-web-theme-01 .fg-body-bg .fg-title > .comments-count {
+  /* heading  txt */
+      font-family: Roboto Condensed;
+        font-weight: bold;
+        font-style: normal;    
+   
+   margin-top: 0;
+}
+
+.fg-web-theme-01 .fg-body-bg .fg-web-top-nav-languages .fg-web-language-list * {
+      font-family: Roboto Condensed;
+    font-weight: normal;
+    font-style: normal;    
+ 
+
+}
+
+
+.fg-web-theme-01 .fg-body-bg .fg-article-widget .carousel .fg-article-slider-nav.fg-nav-img li > a span {
+			font-family: Roboto Condensed;
+				font-weight: bold;
+				font-style: normal;    
+	 
+			text-transform: uppercase;
+	}
+
+.fg-web-theme-01 .fg-body-bg .fg-web-page-container .fg-teams-innerpage-wrapper .fg-team-nav li {
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;    
+ 
+    text-transform: none;    
+					
+}
+
+.fg-web-theme-01 .fg-body-bg .fg-web-page-container .fg-supplementary-widget .panel-group .panel .panel-heading .panel-title{
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    font-style: normal;    
+ 
+    text-transform: none;    
+							
+}

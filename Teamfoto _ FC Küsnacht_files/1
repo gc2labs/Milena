@@ -1,0 +1,135 @@
+var Sprint ={'currentSprint':"V4.10.4.1"};
+var googleEmbeddedMapApiKey ="AIzaSyAH8aNG-whPcbHlMXbeGYKswcBjTVwpLVk";
+
+var jstranslations = {
+    'VALIDATION_THIS_FIELD_REQUIRED' : "Dies ist ein Pflichtfeld",
+    'dirtyformAlert' : "Haben Sie vergessen, Änderungen zu speichern?",
+    'dirtyformConfirm' : "Wollen Sie diese Seite wirklich verlassen? Ungespeicherte Inhalte können verloren gehen.",
+    'validateMinLength' : "Bitte geben Sie mindestens {0} Zeichen ein.",
+    'localeName' : 'de',
+    'EMAIL_VALIDATION' : "Ungültige E-Mail-Adresse",
+    'PASSWORD_VALIDATION' : "Ihr Passwort ist zu simpel oder nicht konform mit unseren Regeln!",
+    'VALIDATE_EQUALTO' : "Bitte gleiche Zeichenfolge eingeben",
+    'PASSWORD_NORMAL' : "Normal",
+    'PASSWORD_MEDIUM' : "Mittel",
+    'PASSWORD_WEAK' : "Schwach",
+    'PASSWORD_STRONG' : "Stark",
+    'PASSWORD_VERYSTRONG' : "Sehr stark",
+    'PASSWORD_WORD_SEQUENCE' : "Das Passwort enthält Buchstaben- oder Zahlenfolgen",
+    'PASSWORD_WORD_REPITION' : "Das Passwort enthält zuviele Wiederholungen eines oder mehrerer Zeichen",
+    'invalidurl' : "Ungültige URL",
+    'validateMax':"Bitte geben Sie einen Wert kleiner/gleich {0} ein.",
+    'validateMin':"Bitte geben Sie einen Wert grösser/gleich {0} ein.",
+    'noneSelectedText' : "Keine",
+    'countSelectedText' : "{0} von {1} ausgewählt",
+    'loadingVar' : "Laden…",
+    'data_Search' : "Suche",
+    'data_showing' : "Zeige",
+    'data_to' : "bis",
+    'data_of' : "von",
+    'data_entries' : " ",
+    'no_matching_records' : "Keine passenden Einträge gefunden.",
+    'no_record' : "Keine Daten in der Tabelle vorhanden.",
+    'filtered_from' : "gefiltert von total",
+    'total_entries' : "Einträgen",
+    'row' : "Zeilen",
+    'Reg' : "Rg.",
+    'Korr' : "Korr.",
+    'contact_name' : "Kontakt",
+    'Function' : "Funktionen",
+    'waitingForConfirmation': 'Bestätigung ausstehend.',
+    'waitingForConfirmationContactRemoved': 'Dieser Kontakt mit Funktion _PH_ wurde entfernt. Die Entfernung muss in der Kontaktverwaltung noch bestätigt werden.',
+    'waitingForConfirmationContactAdded': 'Dieser Kontakt wurde dieser Gruppe hinzugefügt. Die Zuweisung muss in der Kontaktverwaltung noch bestätigt werden.',
+    'waitingForConfirmationContactCreated': 'Dieser Kontakt wurde neu erstellt. Er muss in der Kontaktverwaltung noch bestätigt werden.',
+    'waitingForConfirmationFunctionChanged': 'Die Funktion dieses Kontaktes wurde geändert. Die Änderung muss in der Kontaktverwaltung noch bestätigt werden.',
+    'currentActiveValue': 'Aktiver Wert: %a%',
+    'More' : "weitere",
+    'PrivateText':"Sie sind nicht berechtigt, den Wert einzusehen",
+    'fedmemConfirmTootipMsg':" Antrag für Verbandsmitgliedschaft wartet auf Bestätigung",
+    'allSelected':"Alle",
+    'chars':"Zeichen",
+    'cmsNavMenuDeleteTooltip':"Dieses Menü enthält Untermenüpunkte. Bitte zuerst diese löschen.",
+    'invalidFormat':"Ungültiges Format",
+    'validateMaxLength' : "Geben Sie bitte einen Wert kleiner oder gleich {0} ein.",
+    'PASSWORD_VERY_WEAK' : "Sehr schwach",
+    'PASSWORD_MIN_LENGTH' : "Das Passwort muss mindestens 8 Zeichen enthalten",
+    'PASSWORD_MAX_LENGTH' : "Das Passwort kann höchstens 25 Zeichen enthalten",
+    'PASSWORD_INVALID_CHAR' : "Das Passwort enthält ungültige Zeichen",
+    'PASSWORD_UPPERCASE_CHAR' : "Das Passwort muss mindestens 1 Klein- und 1 Grossbuchstaben enthalten",
+    'PASSWORD_NUMBER_VALIDATION' : "Das Passwort muss Buchstaben und Zahlen enthalten",
+    'PASSWORD_ERROR' : "Fehler",
+    'WEBSITE_EVENT_DATE_TABLE_HEADER' : "Event-Datum",
+    'WEBSITE_EVENT_TITLE_TABLE_HEADER' : "Name des Events",
+    'WEBSITE_EVENT_CATEGORY_TABLE_HEADER' : "Kategorie",
+    'WEBSITE_EVENT_LOCATION_TABLE_HEADER' : "Ort",
+    'WEBSITE_EVENT_SUBSTATUS_TABLE_HEADER' : "Anmelde-Status",
+    'BOX_VIEW_ANNOUNCEMENT_STATUS_CANCELLED' : "Abgesagt",
+    'ANNOUCEMENTBOX_SUBSCRIPTION_SUBSCRIBE' : "Sie sind angemeldet",
+    'SUBSCRIPTION_CANCELLED' : "Abgemeldet.",
+    'ANNOUCEMENTBOX_CALLED_OF' : "Event wurde abgesagt.",
+    'ANNOUNCEMENT_STATUS_SOLD_OUT' : "Ausverkauft",
+    'ANNOUNCEMENT_STATUS_SOLD_OUT_WAITINGLIST_POSSIBLE' : "Ausverkauft, Warteliste offen",
+    'ANNOUCEMENTBOX_SUBSCRIPTION_CLOSED' : "Anmeldefenster geschlossen",
+    'ANNOUCEMENTBOX_SUBSCRIPTION_UNTIL' : "Anmeldung möglich bis" 
+};
+FgInternalVariables = {  
+    'topNavSearchUrl' : "/internal/contactSearch",
+    'topNavChangePasswordUrl' : "/internal/changepassword"
+};
+FgLocalStorageNames = {
+    'personalDocuments' : {         
+        "sidebarActiveMenu" : "activePersonalDocumentsMenu432-1",
+        "sidebarActiveSubMenu" : "activePersonalDocumentsSubMenu432-1",
+        "sidebarActiveOptions" : "activePersonalDocumentsMenuOptions432-1",
+        "sidebarActiveMenuDet": "activePersonalDocumentsMenuDet432-1",
+    },
+    'teamDocuments' : {         
+        "sidebarActiveMenu" : "activeTeamDocumentsMenu432-1",
+        "sidebarActiveSubMenu" : "activeTeamDocumentsSubMenu432-1",
+        "sidebarActiveOptions" : "activeTeamDocumentsMenuOptions432-1",
+        "sidebarActiveMenuDet": "activeTeamDocumentsMenuDet432-1",
+    },
+    'workgroupDocuments' : {         
+        "sidebarActiveMenu" : "activeWorkgroupDocumentsMenu432-1",
+        "sidebarActiveSubMenu" : "activeWorkgroupDocumentsSubMenu432-1",
+        "sidebarActiveOptions" : "activeWorkgroupDocumentsMenuOptions432-1",
+        "sidebarActiveMenuDet": "activeWorkgroupDocumentsMenuDet432-1",
+    },
+    'gallery' : {
+        "selectedAlbum" : "gallerySelectedAlbum432-1",
+        "currentViewMode" : "galleryCurrentViewMode432-1",
+        "activeMenuVar" : "galleryActiveMenuVar432-1",
+        "activeSubMenuVar" : "galleryActiveSubMenuVar432-1",
+    },
+    'calendar' : {
+        "selectedDate" : "selectedDate432-1"
+    },
+    'event' : {
+        "boxedAnnouncementMoreMenu" : "boxedAnnouncementMoreMenu432-1",
+        "boxedAnnouncementFilter" : "boxedAnnouncementFilter432-1"
+    }
+};
+  
+FgLocaleSettingsData = {
+    jqueryDateFormat: "dd.mm.yyyy",
+    jqueryDateTimeFormat: "dd.mm.yyyy hh:ii",
+    jqueryDtimeFormat: "hh:ii",
+    momentDateFormat: "DD.MM.YYYY",
+    momentDateTimeFormat: "DD.MM.YYYY HH:mm",
+    momentTimeFormat: "HH:mm",
+    currency : 'CHF',
+    currencyPosition : 'left',
+    decimalMark:',',
+    thousendSeperator:''
+}
+globalForbiddenfiles = 'adp,app,ascx,asis,asmx,asp,asp,aspx,atp,bas,bat,bsc,c,cc,cer,cfc,cfm,cgi,chm,cmd,com,cpl,cpp,crt,csh,cur,db,dbp,deb,der,dib,disco,dll,dmg,exe,fxp,gadget,gmk,h,hlp,hta,htaccess,htc,htm,html,HxC,ico,idb,idl,ilk,inc,inf,ini,ins,isp,its,jar,java,jpe,js,jse,jsp,ksh,lib,lnk,m4,mad,maf,mag,make,makefile,mam,map,maq,mar,mas,mat,mau,mav,maw,mda,mdb,mde,mdt,mdw,mdz,mfcribbon-ms,msc,msh,msh1,msh1xml,msh2,msh2xml,mshxml,msi,msp,mst,o,obj,ops,pcd,pch,php,php2,php3,php4,php5,phtm,phtml,pif,pl,plg,prf,prg,ps1,ps1xml,ps2,ps2xml,psc1,psc2,pst,py,rb,rc,rc2,reg,rpm,sbr,scf,scr,sct,sh,shb,shs,shtm,shtml,sln,so,sql,sqlite,sqlite3,suo,sys,tmp,url,v,vap,vb,vbe,vbg,vbp,vbproj,vbs,vcxproj,vcxprojfilters,vdproj,vip,vmx,vsmacros,vup,vxd,ws,wsc,wsf,wsh,xnk,xsp';
+
+FgEventExplorerTransalations = {
+        'ALL' : "Alle Events",
+        'NO_EVENTS' : "Keine Events gefunden", 
+        'NO_EVENTS_CREATED': "Keine Events vorhanden",
+        'SELECT_EVENTS_IN_COLUMN' : "Alle Events dieser Spalte auswählen", 
+        'SELECT_EVENT_AND_SUBEVENTS' : "Dieses Event und alle seine Teilevents auswählen",
+        'SELECT_ALL_EVENTS' : "Alle Events auswählen",
+        'SELECT_THIS_EVENTS' : "Dieses Event auswählen",
+};
